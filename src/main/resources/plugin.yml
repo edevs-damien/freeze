@@ -1,0 +1,10 @@
+name: Freeze
+version: '${project.version}'
+main: damien.freeze.Freeze
+api-version: 1.19
+commands:
+  freeze:
+    description: freeze command
+    usage: /freeze
+    permission: freeze.admin
+
